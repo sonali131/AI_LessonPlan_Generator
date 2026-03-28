@@ -1,3 +1,5 @@
+
+# new import
 import os
 import bcrypt
 import pymongo
@@ -38,7 +40,7 @@ bg_color = "#1f2937" if dark_mode else "#f0f4f8"
 text_color = "#f0f4f8" if dark_mode else "#1f2937"
 card_bg_color = "#2c2c2c" if dark_mode else "#ffffff"
 input_bg_color = "#3a3a3a" if dark_mode else "#ffffff"
-input_text_color = "#f0f4f8" if dark_mode else "#000000" # Explicitly black for light mode inputs
+input_text_color = "#f0f4f8" if dark_mode else "#006DDA" # Explicitly black for light mode inputs
 button_color = "#6a11cb" if dark_mode else "#2575fc"
 button_text_color = "#ffffff"
 
