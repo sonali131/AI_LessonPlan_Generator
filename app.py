@@ -277,13 +277,13 @@ Return Markdown
         ppt=create_ppt(st.session_state.lesson)
         st.download_button("⬇ Download PPT",ppt,"lesson.pptx")
 
-    if page=="Saved Lessons":
-        st.title("Saved Lessons")
-        data=lessons.find({"username":st.session_state.username})
-        found=False
-        for d in data:
-            found=True
-            st.markdown("---")
-            st.markdown(d["lesson"])
-        if not found:
-            st.info("No saved lessons yet.")
+if page=="Saved Lessons":
+    st.title("Saved Lessons")
+    data=lessons.find({"username":st.session_state.username})
+    found=False
+    for d in data:
+        found=True
+        st.markdown("---")
+        st.markdown(d["lesson"])
+    if not found:
+        st.info("No saved lessons yet.")
