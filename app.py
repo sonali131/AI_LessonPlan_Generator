@@ -664,40 +664,95 @@ text = "#f9fafb" if dark else "#111827"
 card = "#1f2937" if dark else "#ffffff"
 
 # ---------------- CSS FIXED ----------------
+# st.markdown(f"""
+# <style>
+# .stApp {{
+#     background: {bg};
+# }}
+
+# h1, h2, h3, h4, h5, h6, p, label, span {{
+#     color: {text} !important;
+# }}
+
+# input, textarea {{
+#     color: black !important;
+# }}
+
+# div.stButton > button {{
+#     width:240px;height:44px;margin:auto;display:block;
+#     border-radius:10px;font-weight:600;
+#     background:linear-gradient(90deg,#2563eb,#1d4ed8);
+#     color:white !important;border:none;
+# }}
+
+# div.stDownloadButton > button {{
+#     width:240px;height:44px;margin:auto;display:block;
+#     border-radius:10px;font-weight:600;
+#     background:linear-gradient(90deg,#2563eb,#1d4ed8)!important;
+#     color:white!important;border:none;
+# }}
+
+# .card {{
+#     background:{card};
+#     padding:30px;
+#     border-radius:14px;
+#     margin-top:20px;
+# }}
+# </style>
+# """, unsafe_allow_html=True)
+
 st.markdown(f"""
 <style>
+
+/* MAIN BACKGROUND */
 .stApp {{
     background: {bg};
 }}
 
+/* TEXT FIX */
 h1, h2, h3, h4, h5, h6, p, label, span {{
     color: {text} !important;
 }}
 
+/* SIDEBAR FIX */
+section[data-testid="stSidebar"] {{
+    background-color: {card} !important;
+}}
+
+section[data-testid="stSidebar"] * {{
+    color: {text} !important;
+}}
+
+/* INPUT FIELDS */
 input, textarea {{
     color: black !important;
 }}
 
+/* BUTTONS */
 div.stButton > button {{
     width:240px;height:44px;margin:auto;display:block;
     border-radius:10px;font-weight:600;
     background:linear-gradient(90deg,#2563eb,#1d4ed8);
-    color:white !important;border:none;
+    color:white !important;
+    border:none;
 }}
 
 div.stDownloadButton > button {{
     width:240px;height:44px;margin:auto;display:block;
     border-radius:10px;font-weight:600;
     background:linear-gradient(90deg,#2563eb,#1d4ed8)!important;
-    color:white!important;border:none;
+    color:white!important;
+    border:none;
 }}
 
+/* CARD */
 .card {{
     background:{card};
     padding:30px;
     border-radius:14px;
     margin-top:20px;
 }}
+
 </style>
 """, unsafe_allow_html=True)
 
