@@ -304,7 +304,16 @@ from PyPDF2 import PdfReader
 load_dotenv()
 
 # ---------------- DATABASE ----------------
-client = pymongo.MongoClient(os.getenv("MONGO_URI"))
+#client = pymongo.MongoClient(os.getenv("MONGO_URI"))
+
+try:
+    MONGO_URI = st.secrets["MONGO_URI"]
+    GROQ_KEY = st.secrets["GROQ_API_KEY"]
+except:
+    MONGO_URI = os.getenv("MONGO_URI")
+    GROQ_KEY = os.getenv("GROQ_API_KEY")
+
+client = pymongo.MongoClient(MONGO_URI)
 db = client["StudentDB"]
 users = db["users"]
 lessons = db["lessons"]
@@ -313,7 +322,8 @@ lessons = db["lessons"]
 def LLM_Setup(prompt):
     model = ChatGroq(
         model="llama-3.3-70b-versatile",
-        groq_api_key=os.getenv("key")
+        # groq_api_key=os.getenv("GROQ_KEY")
+         groq_api_key=GROQ_KEY
     )
     parser = StrOutputParser()
     chain = model | parser
