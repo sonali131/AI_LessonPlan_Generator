@@ -79,8 +79,8 @@ Add screenshots here for better UI showcase
 Sensitive data like API keys and DB credentials are stored securely using:
 .env (local)
 Streamlit secrets (cloud)
-👩‍💻 Author
 
+👩‍💻 Author
 Sonali Mishra
 💡 MCA Student | AI/ML | Full Stack Enthusiast | AI Automation
 
