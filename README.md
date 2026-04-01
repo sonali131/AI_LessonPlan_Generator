@@ -4,44 +4,56 @@
 
 🌐 Live App:
 👉 https://aileappnplangenerator-3dyppewud7av7rze6g8cja.streamlit.app/
+# 📚 AI Lesson Plan Generator
 
-✨ Features
-🧠 AI-based Lesson Plan Generator
-📅 Weekly Teaching Planner
-📝 Worksheet Generator
-🎯 Quiz Generator (MCQs)
-🎲 Classroom Activities Generator
-📂 Upload Syllabus → Auto Lesson Planning
-💾 Save & View Lessons
-📄 Download as PDF & PPT
-🔐 User Authentication (Login/Signup)
-🛠️ Tech Stack
+✨ An AI-powered web application that helps teachers instantly generate lesson plans, quizzes, worksheets, and classroom activities using advanced language models.
 
-Frontend:
+---
 
-Streamlit
+## 🌐 Live App  
+👉 https://aileappnplangenerator-3dyppewud7av7rze6g8cja.streamlit.app/
 
-Backend:
+---
 
-Python
+## ✨ Features
 
-Database:
+- 🧠 AI-based Lesson Plan Generator  
+- 📅 Weekly Teaching Planner  
+- 📝 Worksheet Generator  
+- 🎯 Quiz Generator (MCQs)  
+- 🎲 Classroom Activities Generator  
+- 📂 Upload Syllabus → Auto Lesson Planning  
+- 💾 Save & View Lessons  
+- 📄 Download as PDF & PPT  
+- 🔐 User Authentication (Login/Signup)  
 
-MongoDB Atlas
+---
 
-AI Model:
+## 🛠️ Tech Stack
 
-LLaMA (via Groq API)
+### Frontend
+- Streamlit  
 
-Libraries:
+### Backend
+- Python  
 
-PyMongo
-LangChain
-ReportLab
-python-pptx
-PyPDF2
-bcrypt
-📂 Project Structure
+### Database
+- MongoDB Atlas  
+
+### AI Model
+- LLaMA (via Groq API)  
+
+### Libraries
+- PyMongo  
+- LangChain  
+- ReportLab  
+- python-pptx  
+- PyPDF2  
+- bcrypt  
+
+---
+
+## 📂 Project Structure
 AI_LessonPlan_Generator/
 │── app.py
 │── requirements.txt
@@ -50,8 +62,13 @@ AI_LessonPlan_Generator/
 │── .gitignore
 │── README.md
 │── config.toml
-⚙️ Installation & Setup
-1️⃣ Clone Repository
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+```bash
 git clone https://github.com/sonali131/AI_LessonPlan_Generator.git
 cd AI_LessonPlan_Generator
 2️⃣ Install Dependencies
@@ -78,7 +95,8 @@ Click Deploy 🚀
 👩‍🏫 Teachers creating lesson plans
 🏫 Schools automating curriculum planning
 📚 EdTech platforms
-🎓 Students preparing structured notes
+🎓 Students preparing structured notes ```bash
+
 📸 Screenshots (Optional)
 
 Add screenshots here for better UI showcase
