@@ -33,7 +33,7 @@ AI Model:
 
 LLaMA (via Groq API)
 
-Libraries Used:
+Libraries:
 
 PyMongo
 LangChain
@@ -51,28 +51,26 @@ AI_LessonPlan_Generator/
 │── README.md
 │── config.toml
 ⚙️ Installation & Setup
-1️⃣ Clone the Repository
+1️⃣ Clone Repository
 git clone https://github.com/sonali131/AI_LessonPlan_Generator.git
 cd AI_LessonPlan_Generator
 2️⃣ Install Dependencies
 pip install -r requirements.txt
 3️⃣ Setup Environment Variables
 
-Create a .env file in the root directory:
+Create a .env file:
 
 MONGO_URI=your_mongodb_connection_string
 GROQ_API_KEY=your_groq_api_key
-4️⃣ Run the App Locally
+4️⃣ Run Locally
 streamlit run app.py
 ☁️ Deployment (Streamlit Cloud)
-Push your code to GitHub
+Push code to GitHub
 Go to Streamlit Cloud
-Select your repository
-Configure:
+Select your repo
+Set:
 Main file: app.py
-
-Add secrets in Advanced Settings:
-
+Add secrets:
 MONGO_URI="your_mongo_uri"
 GROQ_API_KEY="your_api_key"
 Click Deploy 🚀
@@ -81,11 +79,6 @@ Click Deploy 🚀
 🏫 Schools automating curriculum planning
 📚 EdTech platforms
 🎓 Students preparing structured notes
-📌 Future Enhancements
-Multi-language support
-Advanced analytics for lesson performance
-Integration with LMS platforms
-Voice-based lesson generation
 📸 Screenshots (Optional)
 
 Add screenshots here for better UI showcase
