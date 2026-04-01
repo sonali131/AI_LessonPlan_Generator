@@ -5,7 +5,7 @@
 🌐 Live App:
 👉 https://aileappnplangenerator-3dyppewud7av7rze6g8cja.streamlit.app/
 
-🚀 Features
+✨ Features
 🧠 AI-based Lesson Plan Generator
 📅 Weekly Teaching Planner
 📝 Worksheet Generator
@@ -16,11 +16,25 @@
 📄 Download as PDF & PPT
 🔐 User Authentication (Login/Signup)
 🛠️ Tech Stack
-Frontend: Streamlit
-Backend: Python
-Database: MongoDB Atlas
-AI Model: LLaMA (via Groq API)
-Libraries:
+
+Frontend:
+
+Streamlit
+
+Backend:
+
+Python
+
+Database:
+
+MongoDB Atlas
+
+AI Model:
+
+LLaMA (via Groq API)
+
+Libraries Used:
+
 PyMongo
 LangChain
 ReportLab
@@ -37,34 +51,41 @@ AI_LessonPlan_Generator/
 │── README.md
 │── config.toml
 ⚙️ Installation & Setup
-1️⃣ Clone Repository
+1️⃣ Clone the Repository
 git clone https://github.com/sonali131/AI_LessonPlan_Generator.git
 cd AI_LessonPlan_Generator
 2️⃣ Install Dependencies
 pip install -r requirements.txt
 3️⃣ Setup Environment Variables
 
-Create .env file:
+Create a .env file in the root directory:
 
 MONGO_URI=your_mongodb_connection_string
 GROQ_API_KEY=your_groq_api_key
-4️⃣ Run App Locally
+4️⃣ Run the App Locally
 streamlit run app.py
 ☁️ Deployment (Streamlit Cloud)
-Push code to GitHub
+Push your code to GitHub
 Go to Streamlit Cloud
-Select repo
-Set:
+Select your repository
+Configure:
 Main file: app.py
+
 Add secrets in Advanced Settings:
+
 MONGO_URI="your_mongo_uri"
 GROQ_API_KEY="your_api_key"
-Deploy 🚀
+Click Deploy 🚀
 🎯 Use Cases
 👩‍🏫 Teachers creating lesson plans
 🏫 Schools automating curriculum planning
 📚 EdTech platforms
 🎓 Students preparing structured notes
+📌 Future Enhancements
+Multi-language support
+Advanced analytics for lesson performance
+Integration with LMS platforms
+Voice-based lesson generation
 📸 Screenshots (Optional)
 
 Add screenshots here for better UI showcase
