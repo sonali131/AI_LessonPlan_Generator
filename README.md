@@ -1,9 +1,3 @@
-📚 AI Lesson Plan Generator
-
-✨ An AI-powered web application that helps teachers instantly generate lesson plans, quizzes, worksheets, and classroom activities using advanced language models.
-
-🌐 Live App:
-👉 https://aileappnplangenerator-3dyppewud7av7rze6g8cja.streamlit.app/
 # 📚 AI Lesson Plan Generator
 
 ✨ An AI-powered web application that helps teachers instantly generate lesson plans, quizzes, worksheets, and classroom activities using advanced language models.
