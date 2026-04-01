@@ -71,6 +71,7 @@ AI_LessonPlan_Generator/
 ```bash
 git clone https://github.com/sonali131/AI_LessonPlan_Generator.git
 cd AI_LessonPlan_Generator
+```
 2️⃣ Install Dependencies
 pip install -r requirements.txt
 3️⃣ Setup Environment Variables
@@ -95,7 +96,7 @@ Click Deploy 🚀
 👩‍🏫 Teachers creating lesson plans
 🏫 Schools automating curriculum planning
 📚 EdTech platforms
-🎓 Students preparing structured notes ```bash
+🎓 Students preparing structured notes
 
 📸 Screenshots (Optional)
 
